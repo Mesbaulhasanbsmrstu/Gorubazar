@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+
+    android:background="@android:color/holo_orange_light"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/ubuttonadd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="105dp"
+        android:text="পশু অ্যাড করুন" />
+
+
+    <Button
+
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/ubuttonshow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="আপনার সকল পশু দেখুন" />
+
+    <Button
+
+        android:layout_marginTop="15dp"
+
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/ubuttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:text="লগ আউট করুন" />
+
+
+
+</LinearLayout>

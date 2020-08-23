@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    tools:context=".Login">
+
+
+
+    <EditText
+        android:id="@+id/uphone"
+        android:layout_width="365dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Mobile"
+        android:inputType="phone"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/upassword"
+        android:layout_width="365dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:layout_marginTop="15dp"
+
+        />
+
+
+    <Button
+        android:layout_marginLeft="90dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/ubuttonlogin"
+        android:layout_width="143dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="105dp"
+        android:text="LogIn" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="264dp"
+        android:layout_height="20dp"
+
+        android:text="Don't have account...Click to REGISTER"
+        ></TextView>
+
+    <Button
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/ubuttonregister"
+        android:layout_width="143dp"
+        android:layout_height="30dp"
+
+        android:text="Register" />
+
+</LinearLayout>

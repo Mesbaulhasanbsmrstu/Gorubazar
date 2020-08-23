@@ -1,0 +1,2 @@
+rootProject.name='Gorubazar'
+include ':app'
